@@ -1,0 +1,65 @@
+/* css for Menu */
+.menu{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    border-bottom: 1px solid black;
+    background: rgb(41, 35, 35);  
+} 
+
+.menu ul{
+    list-style-type: none;
+    
+}
+
+.menu ul li{
+    display: inline;
+    padding: 2%;
+    font-size: large;
+}
+
+.menu ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+
+.menu ul li a:hover{
+    color: #5969b1;
+}
+
+/* --------------- CSS for FORM --------------- */
+
+.tbl-30{
+    width: 50% !important;
+    border: 1px solid black !important;
+    margin: 10% auto !important;
+    padding: 2% 2% !important;
+    box-shadow: 5px 5px 10px #666666f2 !important;
+    background: white !important;
+    border-radius: 1% !important;
+}
+
+
+input[type='text'], input[type='password'], 
+input[type='file'], input[type='number'], select, textarea{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid black;
+    border-radius: 4px;
+    box-sizing: border-box;  
+}
+
+input[type='radio']{
+    margin: 8px 10px;
+    padding: 12px 20px;
+}
+
+/* -------------- CSS for Heading ----------- */
+
+.wrapper h1{
+    text-align: center;
+}
